@@ -1,17 +1,16 @@
-import { Routes,Route,Link } from "react-router-dom";
-
-import Blue from "./components/Blue.jsx";
-import Red from "./components/Red.jsx";
-import Home from "./components/Home.jsx";
+import NavBar from "./components/NavBar.jsx";
+import BodyMain from "./components/BodyMain.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="" element={<Blue />} />
-        <Route path="" element={<Red />} />
-      </Routes>
+      <div id="container">
+        <h1>Hello React Router!</h1>
+        <NavBar />
+        <BodyMain />
+        <Footer />
+      </div>
     </>
   )
 }
