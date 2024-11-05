@@ -1,5 +1,7 @@
 *{ font-family: arial, sans-serif;
   margin: 0;
+  text-align: center;
+  text-decoration: none;
 }
 body,
 body > div {
@@ -14,8 +16,9 @@ body > div {
 #container > div {
   display: flex;
 }
+h1 {padding:1em;}
 #navbar {
-  padding: 2em;
+  margin-top: 2em;
   justify-content: space-evenly;
 }
 #main-section {
@@ -34,4 +37,8 @@ body > div {
 .blue {
   background-color: #275db3;
   color: white;
+}
+.home {
+  background-color: rgb(120, 64, 148);
+  color:white;
 }
